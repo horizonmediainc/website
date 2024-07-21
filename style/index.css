@@ -164,6 +164,7 @@ text-shadow: -2px -2px 8px var(--scd-clr);
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  display: none;
 }
 
 .custom-shape-divider-bottom-1721412749 svg {
