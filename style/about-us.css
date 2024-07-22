@@ -254,6 +254,9 @@ h2.info1-heading {
   box-shadow: 5px 5px 15px var(--scd-clr);
 }
 
+.call .container .cta-action a i {
+  margin-left: 12px;
+}
 /* footer */
 
 footer{
@@ -530,23 +533,5 @@ footer .links ul li a:hover {
     padding: 25px 0;
   }
 
-  footer .container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  footer .container .col-1,
-  footer .container .col-2,
-  footer .container .col-3 {
-    width: 90%;
-  }
-
-  footer .container .col-2,
-  footer .container .col-3 {
-    margin-top: 10px;
-  }
-
-  .copyright {
-    padding: 25px 0;
-  }
 }
