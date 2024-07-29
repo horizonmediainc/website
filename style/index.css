@@ -106,7 +106,6 @@ section {
 
 .hero {
   position: relative;
-  width: 100%;
   background-color: #212245;
   color: white;
 }
@@ -116,6 +115,7 @@ section {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
+  height: min-content;
 }
 
 .hero-content{
