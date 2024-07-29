@@ -258,14 +258,14 @@
           await sleep(sleepTime); 
         }
 
-        await sleep(sleepTime * 20);
+        await sleep(sleepTime * 27);
 
         for (let i = curWord.length; i > 0; i--) {
           el.innerText = curWord.substring(0,i - 1);
           await sleep(sleepTime); 
         }
 
-        await sleep(sleepTime * 7);
+        await sleep(sleepTime * 4);
 
         if (curPhraseIndex === phrases.length - 1) {
         curPhraseIndex = 0;
