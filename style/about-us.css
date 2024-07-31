@@ -512,17 +512,23 @@ footer .links ul li a:hover {
 
   footer .container {
     flex-direction: column;
+    align-items: center;
   }
 
   footer .container .col-1,
   footer .container .col-2,
   footer .container .col-3 {
-    width: 90%;
+    width: 100%;
   }
 
   footer .container .col-2,
   footer .container .col-3 {
     margin-top: 10px;
+  }
+
+  footer .container .col-2 .links,
+  footer .container .col-3 .links {
+    padding-inline: 15px;
   }
 
   .copyright {
