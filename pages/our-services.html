@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../style/our-services.css">
     <link rel="shortcut icon" href="../images/logo-transparent-png.ico" type="image/x-icon">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   </head>
 <body>
   <nav class="navbar">
@@ -32,9 +33,10 @@
             <a href="./about-us.html">About</a>
           </li>
           <li>
-            <a class="btn btn-light" href="#"> Let's talk
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/al3x200632/consultation-call'});return false;" class="btn btn-light"> Let's talk<i class="fa-solid fa-phone"></i></a>
+            <!-- <a class="btn btn-light" href="#"> Let's talk
               <i class="fa-solid fa-phone"></i> 
-            </a>
+            </a> -->
           </li>
         </ul>
       </div>
@@ -56,9 +58,10 @@
             <a href="./about-us.html">About</a>
           </li>
           <li>
-            <a class="btn btn-light" href="#"> Let's talk
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/al3x200632/consultation-call'});return false;" class="btn btn-light"> Let's talk<i class="fa-solid fa-phone"></i></a>
+            <!-- <a class="btn btn-light" href="#"> Let's talk
               <i class="fa-solid fa-phone"></i> 
-            </a>
+            </a> -->
           </li>
         </ul>
       </div>
@@ -145,7 +148,7 @@
           <img src="../images/fullLogo.png" alt="">
         </a>
         <p class="footer-text text-md">
-          At Horizon Media, we’re proud of the successes our clients have achieved thanks to our help. We’ve worked with businesses of all sizes in a wide range of industries, and we’re always excited to see the results of our efforts.
+          At Horizon Media, we are excited to partner with new clients and committed to delivering exceptional results that grow your business. Through our expertise in SEO, paid ads, and web development, we ensure your brand reaches its full potential and achieves sustainable growth.
         </p>
         <div class="icons">
           <div class="fb">
@@ -224,5 +227,6 @@
 
     writeLoop();
   </script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html> 
